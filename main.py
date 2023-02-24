@@ -29,7 +29,7 @@ def get_from_file(filename):
         return str(f.read()).split('\n') # Transforma o texto de um arquivo em um array separando linhas. Cada linha é um elemento no array.
 
 if len(argv) < 2:
-    print('Insuficient arguments.')
+    print('Insufficient arguments.')
     exit(1)
 
 print(check(argv[2], get_from_file((argv[1]))))
