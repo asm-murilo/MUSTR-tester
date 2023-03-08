@@ -15,8 +15,8 @@ def check(phr_tt, phrases): # Verifica se existe uma frase diferente em um conju
     phrase = None 
 
     for phrase in phrases:
-        print(f'Testing: [ {phr_tt} ] :: [ {phrase} ] :: Line [ {line} ]')
         line += 1
+        print(f'Testing: [ {phr_tt} ] :: [ {phrase} ] :: Line [ {line} ]')
 
         if phr_tt != phrase: # Se alguma frase for diferente de "phr_tt", informa o usuário e encerra o loop. 
             print(f'Found!: \"{phrase}\" in line {line}')
