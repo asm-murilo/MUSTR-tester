@@ -8,6 +8,7 @@
 # De uma forma mais simples, o script testa uma certa frase em um conjunto de frases, se uma frase desses conjuntos de frases for diferente da frase que está testando,
 # o script encerra a verificação e mostra a o usuário a frase diferente e a linha que essa frase está.
 
+
 from sys import argv
 
 def check(phr_tt, phrases): # Verifica se existe uma frase diferente em um conjunto de frases (phrases). "phr_tt" é a frase que testa as outras.
